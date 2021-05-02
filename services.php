@@ -24,7 +24,7 @@
 						?>
 						<div class="col-lg-4 col-md-6 service_grid_btm_left mt-lg-5 mt-4">
 							<div class="service_grid_btm_left1">
-								<a href="#"><img src="<?php echo $service['image']; ?>" height="300" alt=" " class="img-responsive" /></a>
+								<center><a href="#"><img src="<?php echo $service['image']; ?>" height="300" alt=" " class="img-responsive" /></a></center>
 								<div class="service_grid_btm_left2">
 									<h5><?php echo $service['service']; ?></h5>
 									<p><?php echo $service['shortDescription']; ?></p>

@@ -4948,7 +4948,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #400082;
+  color: #fe346e;
 }
 
 .navbar-light .navbar-toggler {
@@ -14296,10 +14296,17 @@ p.title-para {
   }
 }
 
+
 @media (max-width: 736px) {
   h3.title-small {
     font-size: 20px;
     line-height: 30px;
+  }
+}
+
+@media (max-width: 990px) {
+  .image1 {
+    display: none;
   }
 }
 
@@ -17565,6 +17572,9 @@ screen and (max-height: 300px) {
   }
 }
 @media all and (max-width:600px) {
+  .custom-icon-holder {
+    width: 30% !important; 
+  }
   .sub-content-botom.mx-0 {
       display: grid;
       grid-template-columns:1fr;
@@ -17615,6 +17625,17 @@ button span.fa-angle-up {
   font-weight: bold;
   
 }
+
+.book-appointment-button {
+    background: linear-gradient(to right, #400082 0%, #470688 100%);
+    border: none;
+    font-weight: bold;
+}
+.custom-icon-holder {
+  width: 50%;
+  border-radius: 100%;  
+}
+
 /*-- /move top --*/
 /*# sourceMappingURL=style-freedom.css
 /*--//footer--*/

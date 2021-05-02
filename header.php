@@ -1,4 +1,4 @@
-<?php include_once 'common.php' ?>
+<?php include_once 'common.php';?>
 
 <!--
 Author: W3layouts
@@ -18,6 +18,10 @@ Author URL: http://w3layouts.com
 	<!-- Template CSS -->
 	<link href="//fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&display=swap" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/3.1.3/js/bootstrap-datetimepicker.min.js"></script>
+
 	<!-- Template CSS -->
 </head>
 
@@ -80,23 +84,23 @@ Author URL: http://w3layouts.com
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mx-lg-auto">
-						<li class="nav-item active">
+						<li class="nav-item <?php echo $_SERVER['PHP_SELF'] == '/index.php' ? 'active' : '';  ?>">
 							<a class="nav-link" href="index.php">Home</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item <?php echo $_SERVER['PHP_SELF'] == '/about.php' ? 'active' : '';  ?>">
 							<a class="nav-link" href="about.php">About</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item <?php echo $_SERVER['PHP_SELF'] == '/services.php' ? 'active' : '';  ?>">
 							<a class="nav-link" href="services.php">Services</a>
 						</li>
 						
-						<li class="nav-item">
+						<li class="nav-item <?php echo $_SERVER['PHP_SELF'] == '/contact.php' ? 'active' : '';  ?>">
 							<a class="nav-link" href="contact.php">Contact</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item <?php echo $_SERVER['PHP_SELF'] == '/orthodontic.php' ? 'active' : '';  ?>">
 							<a class="nav-link" href="orthodontic.php">Orthodontics</a>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item <?php echo $_SERVER['PHP_SELF'] == '/gallery.php' ? 'active' : '';  ?>">
 							<a class="nav-link" href="gallery.php">Gallery</a>
 						</li>
 					</ul>

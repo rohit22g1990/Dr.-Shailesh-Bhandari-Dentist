@@ -22,8 +22,10 @@
 				</div>
 			</div>
 			<ul class="slide-social-icons list-unstyled">
-				<li class="share">Share On : </li>
-				<li>
+				<li class="share">
+					<button class="btn btn-success mt-4 book-appointment-button"  data-toggle="modal" data-target=".bd-example-modal-lg"> Book Appointment </button>
+				</li>
+				<!-- <li>
 					<a href="#" class="w3pvt_facebook">
 						<span class="fa fa-facebook-f"></span>
 					</a>
@@ -42,7 +44,7 @@
 					<a href="#" class="w3pvt_google">
 						<span class="fa fa-google-plus"></span>
 					</a>
-				</li>
+				</li> -->
 			</ul>
 		</div>
 
@@ -81,24 +83,27 @@
 				<div class="col-lg-3 col-md-6">
 					<div class="card text-center">
 						<div class="icon-holder">
-							<span class="fa fa-signal service-icon" aria-hidden="true"></span>
+							<img src="assets/images/teeth-white.jpg" class="img-fluid custom-icon-holder" alt="">
 						</div>
-						<h4 class="mission">Dental Bridge</h4>
+						<h4 class="mission">Teeth Whitening</h4>
 						<div class="open-description">
-							<p>Maecenas sodales eu commodo ligula eget dolor dolor sit amet ligula</p>
-							<a href="#read">Read More</a>
+							<p>
+								Teeth whitening is a process of removing stains from the tooth surface and restoring the natural color of the teeth.	
+							</p>
+							<a href="#read" data-toggle="modal" data-target=".teeth-whitening-modal">Read More</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 mt-md-0 mt-5 pt-md-0 pt-3">
 					<div class="card text-center">
 						<div class="icon-holder">
-							<span class="fa fa-assistive-listening-systems service-icon" aria-hidden="true"></span>
+							<img src="assets/images/dental-implant.jpg" class="img-fluid custom-icon-holder" alt="">
 						</div>
 						<h4 class="mission">Dental Implant</h4>
 						<div class="open-description">
-							<p>Maecenas sodales eu commodo ligula eget dolor dolor sit amet ligula</p>
-							<a href="#read">Read More</a>
+							<p>Dental implants are easily the most popular and also the ideal solution, for replacing your missing tooth/teeth</p>
+							<!-- <a href="#read" data-toggle="modal" data-target=".dental-implant-modal">Read More</a> -->
+							<a href="#read" data-toggle="modal" data-target=".teeth-whitening-modal">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -107,7 +112,7 @@
 						<div class="icon-holder">
 							<span class="fa fa-diamond service-icon" aria-hidden="true"></span>
 						</div>
-						<h4 class="mission">Dental Crowns</h4>
+						<h4 class="mission">Ceramic Crowns</h4>
 						<div class="open-description">
 							<p>Maecenas sodales eu commodo ligula eget dolor dolor sit amet ligula</p>
 							<a href="#read">Read More</a>
@@ -119,7 +124,7 @@
 						<div class="icon-holder">
 							<span class="fa fa-magic service-icon" aria-hidden="true"></span>
 						</div>
-						<h4 class="mission">Teeth Whitening</h4>
+						<h4 class="mission">Extraction</h4>
 						<div class="open-description">
 							<p>Maecenas sodales eu commodo ligula eget dolor dolor sit amet ligula</p>
 							<a href="#read">Read More</a>
@@ -165,7 +170,7 @@
 							<a class="btn mt-4" href="services.html">Read More</a>
 						</div>
 					</div>
-					<div class="photo-6-inf-left col-lg-6 pr-lg-4">
+					<div class="photo-6-inf-left col-lg-6 pr-lg-4 image1">
 						<a href="#"><img src="assets/images/g1.jpg" class="img-fluid" alt=""></a>
 					</div>
 				</div>
@@ -182,7 +187,7 @@
 			<div class="container py-lg-5">
 				<div class="row story-6-grids text-left">
 					<div class="col-lg-5 story-gd">
-						<img src="assets/images/ab1.jpg" class="img-fluid" alt="/">
+						<img src="assets/images/ab1.jpg" class="img-fluid image1" alt="/">
 					</div>
 					<div class="col-lg-7 story-gd pl-lg-4">
 						<div class="title-content text-left mb-lg-5 mt-4">
@@ -532,4 +537,7 @@
 		</div>
 	</section>
 	<!--//testimonials-->
-	<?php include 'footer.php' ?>
+	<?php include 'footer.php'; ?>
+	<?php include 'modals/bookAppointment.php';?>
+	<?php include 'modals/services/teeth-whitening.php';?>
+	<?php include 'modals/servicesMoreInfo.php';?>

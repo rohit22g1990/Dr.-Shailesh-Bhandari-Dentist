@@ -7,6 +7,24 @@ class Common {
     const EMAIL_ADDRESS_SHAILESH_BHANDARI = 'shailsbds@gmail.com';
     const PHONE_NUMBER_SHAILESH_BHANDARI = '9890787291';
     
+    
+
+    /**
+     * SERVICES CONSTANTS
+     */
+
+    const SERVICE_TEETH_WHITENING = 'Teeth Whitening';
+    const SERVICE_ORTHODONTIC_TREATMENT = 'Orthodontic Treatment';
+    const SERVICE_TOOTH_EXTRACTION = 'Tooth Extraction';
+    const SERVICE_DENTAL_EXAMINATION = 'Dental Examination';
+    const SERVICE_DENTAL_IMPLANT_FIXING = 'Dental Implant Fixing';
+    const SERVICE_BLEACHING = 'Bleaching';
+    const SERVICE_CERAMIC_CROWNS = 'Ceramic Crowns';
+    const SERVICE_BRACES = 'Braces';
+    const SERVICE_ROOT_CANAL = 'Root Canal';
+    const SERVICE_COSMETIC_DENTISTRY = 'Cosmetic Dentistry';
+
+    
     public static function getOpenTimings() {
         return [
             'Monday' => 'Closed',
@@ -36,7 +54,7 @@ class Common {
                 'education' => 'B.D.S',
                 'image' => 'assets/images/Team-2.jpg',
                 'email' => 'shailsbds@gmail.com',
-                'phone' => '989078729',
+                'phone' => '9890787291',
                 'facebookHandle' => 'https://www.facebook.com/shailsbds',
                 'twitterHandle' => '',
                 'active' => true
@@ -68,9 +86,69 @@ class Common {
             [
                 'service' => 'Dental Implant Fixing',
                 'image' => 'assets/images/dental-implant-fixing.jpg',
+                'shortDescription' => 'Dental implants are easily the most popular and also the ideal solution, for replacing your missing tooth/teeth.',
+                'longDescription' => 'Dental implants are easily the most popular and also the ideal solution, for replacing your missing tooth/teeth. They have definitely changed the course of dentistry in the last quarter of a century or so.
+                A dental implant is basically a titanium post which is surgically inserted into the jawbone beneath the gum line to work as a tooth root. Post insertion, an implantologist will attach a crown on top of the implant to ensure the appearance of a natural tooth.
+                Tooth Implants not only look and feel like your natural teeth but also function like.'
+            ],
+
+
+
+
+
+
+
+            [
+                'service' => 'Teeth Whitening',
+                'image' => 'assets/images/dental-implant-fixing.jpg',
+                'shortDescription' => 'Teeth whitening is a process of removing stains from the tooth surface and restoring the natural color of the teeth.',
+                'longDescription' => 'Teeth whitening is a process of removing stains from the tooth surface and restoring the natural color of the teeth. Whitening is a one-time procedure performed by a dentist. It is amongst the most common and widely adopted cosmetic procedure. With the advent of the latest Dental technology, we have advanced whitening treatment procedures which give reliable and long-lasting results.'
+            ],
+            [
+                'service' => 'Bleaching',
+                'image' => 'assets/images/dental-implant-fixing.jpg',
                 'shortDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.',
                 'longDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.'
-            ]
+            ],
+
+
+
+            [
+                'service' => 'Ceramic Crowns',
+                'image' => 'assets/images/dental-implant-fixing.jpg',
+                'shortDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.',
+                'longDescription' => 'Dental implants are easily the most popular and also the ideal solution, for replacing your missing tooth/teeth. They have definitely changed the course of dentistry in the last quarter of a century or so.
+                A dental implant is basically a titanium post which is surgically inserted into the jawbone beneath the gum line to work as a tooth root. Post insertion, an implantologist will attach a crown on top of the implant to ensure the appearance of a natural tooth.
+                Tooth Implants not only look and feel like your natural teeth but also function like.'
+            ],
+            [
+                'service' => 'Extraction',
+                'image' => 'assets/images/dental-implant-fixing.jpg',
+                'shortDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.',
+                'longDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.'
+            ],
+            [
+                'service' => 'Braces',
+                'image' => 'assets/images/dental-implant-fixing.jpg',
+                'shortDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.',
+                'longDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.'
+            ],
+            [
+                'service' => 'Root Canal',
+                'image' => 'assets/images/dental-implant-fixing.jpg',
+                'shortDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.',
+                'longDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.'
+            ],
+            [
+                'service' => 'Cosmetic Dentistry',
+                'image' => 'assets/images/dental-implant-fixing.jpg',
+                'shortDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.',
+                'longDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.'
+            ],
+
+
+            
+            
         ];
     }
 

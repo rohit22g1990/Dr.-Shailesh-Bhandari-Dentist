@@ -540,4 +540,4 @@
 	<?php include 'footer.php'; ?>
 	<?php include 'modals/bookAppointment.php';?>
 	<?php include 'modals/services/teeth-whitening.php';?>
-	<?php include 'modals/servicesMoreInfo.php';?>
+	<?php //include 'modals/servicesMoreInfo.php';?>

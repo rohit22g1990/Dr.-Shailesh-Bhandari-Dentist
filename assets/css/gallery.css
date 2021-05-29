@@ -116,3 +116,10 @@ body{
   .home .demo-gallery {
     padding-bottom: 80px; 
   }
+
+  @media only screen and (max-width: 600px) {
+    .demo-gallery > ul > li {
+      padding-left: 20%;
+    }
+  }
+  

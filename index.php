@@ -1,4 +1,7 @@
-<?php include 'header.php' ?>
+<?php 
+	include 'header.php';
+	$services = Common::getServices();
+?>
 <!--banner-slider-->
   <!-- main-slider -->
 	<section class="w3l-main-slider" id="home">
@@ -63,12 +66,12 @@
 				<div class="content-info-in row">
 					<div class="content-gd col-lg-6 pl-lg-4">
 						<p>
-						One among the most popular dentists in the city is Dr Shailesh Bhandari Advance dental n orthodontic centre in Manmad, Nashik. Understanding that tooth related issues can be scary for many, this dentist has a very calm approach when treating patients which helps keep them calm. The dental facility stands located in Manmad which makes it hassle-free for people from near and far alike to visit and consult the dentist. It occupies a strategic location at M.G Road, Gandhi Chowk, Near Uttam General Store which makes it easy to locate the dentist's centre.
+							One among the most popular dentists in the city is Dr Shailesh Bhandari Advance dental n orthodontic centre in Manmad, Nashik. Understanding that tooth related issues can be scary for many, this dentist has a very calm approach when treating patients which helps keep them calm. The dental facility stands located in Manmad which makes it hassle-free for people from near and far alike to visit and consult the dentist. It occupies a strategic location at M.G Road, Gandhi Chowk, Near Uttam General Store which makes it easy to locate the dentist's centre.
 						</p>
 					</div>
 					<div class="content-gd col-lg-6 pl-lg-4 pl-lg-4">
 						<p>
-						Dr Shailesh Bhandari Advance dental n orthodontic centre in Manmad, Nashik holds immense popularity in the city for being a dental facility equipped with advanced dental equipment for better treatment of patients. Right from regular dental check-ups and cleaning to more serious dental procedures, this dentist ensures every single issue is tackled with care and in a way that the patient feels at ease. There is a waiting area and a dedicated consultation area which ensures the patients feel at ease. Apart from the tooth and gum issues, the suggestions given by the dentist for maintaining proper dental health prove to be quite effective. Post-treatment care and prevention are given equal importance as that given to the procedures. The dentist offers medical services like Tooth Extraction, Dental Examination, Dental Implant Fixing to name a few.
+							Dr Shailesh Bhandari Advance dental n orthodontic centre in Manmad, Nashik holds immense popularity in the city for being a dental facility equipped with advanced dental equipment for better treatment of patients. Right from regular dental check-ups and cleaning to more serious dental procedures, this dentist ensures every single issue is tackled with care and in a way that the patient feels at ease. There is a waiting area and a dedicated consultation area which ensures the patients feel at ease. Apart from the tooth and gum issues, the suggestions given by the dentist for maintaining proper dental health prove to be quite effective. Post-treatment care and prevention are given equal importance as that given to the procedures. The dentist offers medical services like Tooth Extraction, Dental Examination, Dental Implant Fixing to name a few.
 						</p>
 					</div>
 
@@ -90,7 +93,7 @@
 							<p>
 								Teeth whitening is a process of removing stains from the tooth surface and restoring the natural color of the teeth.	
 							</p>
-							<a href="#read" data-toggle="modal" data-target=".teeth-whitening-modal">Read More</a>
+							<a href="#read" data-toggle="modal" class="service-teeth-whitening"  data-target=".services-modal">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -103,31 +106,31 @@
 						<div class="open-description">
 							<p>Dental implants are easily the most popular and also the ideal solution, for replacing your missing tooth/teeth</p>
 							<!-- <a href="#read" data-toggle="modal" data-target=".dental-implant-modal">Read More</a> -->
-							<a href="#read" data-toggle="modal" data-target=".teeth-whitening-modal">Read More</a>
+							<a href="#read" data-toggle="modal" class="service-dental-implant" data-target=".services-modal">Read More</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 mt-lg-0 mt-5 pt-lg-0 pt-3">
 					<div class="card text-center">
 						<div class="icon-holder">
-							<span class="fa fa-diamond service-icon" aria-hidden="true"></span>
+							<img src="assets/images/ceramic-crowns.jpg" class="img-fluid custom-icon-holder" alt="">
 						</div>
 						<h4 class="mission">Ceramic Crowns</h4>
 						<div class="open-description">
-							<p>Maecenas sodales eu commodo ligula eget dolor dolor sit amet ligula</p>
-							<a href="#read">Read More</a>
+							<p>Dental Crowns are a tooth-shaped cap which is placed on the tooth to restore the shape, size, and ...</p>
+							<a href="#read" data-toggle="modal" class="service-dceramic-crowns" data-target=".services-modal">Read More</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 mt-lg-0 mt-5 pt-lg-0 pt-3">
 					<div class="card text-center">
 						<div class="icon-holder">
-							<span class="fa fa-magic service-icon" aria-hidden="true"></span>
+							<img src="assets/images/teeth-extraction.jpg" class="img-fluid custom-icon-holder" alt="">
 						</div>
 						<h4 class="mission">Extraction</h4>
 						<div class="open-description">
-							<p>Maecenas sodales eu commodo ligula eget dolor dolor sit amet ligula</p>
-							<a href="#read">Read More</a>
+							<p>Tooth extraction is performed by a dentist or oral surgeon and is a relatively quick outpatient ...</p>
+							<a href="#read" data-toggle="modal" class="service-teeth-extraction" data-target=".services-modal">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -167,7 +170,7 @@
 							</div>
 						</div>
 						<div class="read">
-							<a class="btn mt-4" href="services.html">Read More</a>
+							<a class="btn mt-4" href="services.php">Read More</a>
 						</div>
 					</div>
 					<div class="photo-6-inf-left col-lg-6 pr-lg-4 image1">
@@ -218,9 +221,7 @@
 									</div>
 								</div>
 							</div>
-
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -415,7 +416,7 @@
 		</div>
 	</section>
 	<!--/testimonials-->
-	<section class="w3l-free-consultion">
+	<!-- <section class="w3l-free-consultion">
 		<div class="container">
 			<div class="consultation-grids">
 				<div class="apply-form">
@@ -448,7 +449,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<section class="w3l-testimonials" id="testimonials">
 		<div class="testimonials py-lg-5 py-4">
 			<div class="container py-lg-5">
@@ -525,7 +526,6 @@
 												accusantium
 												officia quod quasi necessitatibus perspiciatis.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
 												commodo consequat</p>
-
 										</div>
 									</div>
 								</div>
@@ -538,6 +538,7 @@
 	</section>
 	<!--//testimonials-->
 	<?php include 'footer.php'; ?>
-	<?php include 'modals/bookAppointment.php';?>
-	<?php include 'modals/services/teeth-whitening.php';?>
+	<?php include 'modals/bookAppointment.php'; ?>
+	<?php //include 'modals/services/teeth-whitening.php';?>
 	<?php //include 'modals/servicesMoreInfo.php';?>
+	<?php include 'modals/servicesModal.php'; ?>

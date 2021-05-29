@@ -23,8 +23,6 @@ Tooth Implants not only look and feel like your natural teeth but also function 
                 </div>
             </div>
 
-
-
         </div>
     </div>
 </div>

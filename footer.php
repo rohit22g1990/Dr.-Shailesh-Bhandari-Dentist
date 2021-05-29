@@ -166,7 +166,7 @@
 
 </html>
 
-<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- <script src="assets/js/jquery-3.3.1.min.js"></script> -->
 <!-- disable body scroll which navbar is in active -->
 
 <!--//-->
@@ -179,6 +179,7 @@
 </script>
 <!--/scroll-down-JS-->
 <!-- stats -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
 <script src="assets/js/jquery.waypoints.min.js"></script>
 <script src="assets/js/jquery.countup.js"></script>
 <script>
@@ -293,3 +294,5 @@
 <!-- //script -->
 
 <script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/custom/service.js"></script>
+

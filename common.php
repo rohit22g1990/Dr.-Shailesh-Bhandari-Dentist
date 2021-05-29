@@ -116,7 +116,7 @@ class Common {
             [
                 'service' => 'Ceramic Crowns',
                 'image' => 'assets/images/dental-implant-fixing.jpg',
-                'shortDescription' => 'Maecenas sodales eu velit in varius. vitae sem vitae urna tempus commodo.',
+                'shortDescription' => 'ental Crowns are a tooth-shaped cap which is placed on the tooth to restore the shape, size, and appearance of the tooth',
                 'longDescription' => 'Dental implants are easily the most popular and also the ideal solution, for replacing your missing tooth/teeth. They have definitely changed the course of dentistry in the last quarter of a century or so.
                 A dental implant is basically a titanium post which is surgically inserted into the jawbone beneath the gum line to work as a tooth root. Post insertion, an implantologist will attach a crown on top of the implant to ensure the appearance of a natural tooth.
                 Tooth Implants not only look and feel like your natural teeth but also function like.'
@@ -259,38 +259,98 @@ class Common {
             '17.jpg'
         ];
     }
+
+    public static function getServicesforModal() {
+        return [
+            'teethWhitening' => [
+                'modalHeader' => 'WHAT IS TEETH WHITENING?',
+                'image' => '../assets/images/teeth-white.jpg',
+                'modalBody' => '<p>Teeth whitening is a process of removing stains from the tooth surface and restoring the natural color of the teeth. Whitening is a one-time procedure performed by a dentist. It is amongst the most common and widely adopted cosmetic procedure. With the advent of the latest Dental technology, we have advanced whitening treatment procedures which give reliable and long-lasting results.</p>
+                <p>For better results do get it done from a trained dental professional.</p>'
+            ],
+            'dentalImplants' => [
+                'modalHeader' => 'WHAT ARE DENTAL IMPLANTS?',
+                'image' => '../assets/images/dental-implant.jpg',
+                'modalBody' => '<p>Dental implants are easily the most popular and also the ideal solution, for replacing your missing tooth/teeth. They have definitely changed the course of dentistry in the last quarter of a century or so.
+                A dental implant is basically a titanium post which is surgically inserted into the jawbone beneath the gum line to work as a tooth root. Post insertion, an implantologist will attach a crown on top of the implant to ensure the appearance of a natural tooth.
+                Tooth Implants not only look and feel like your natural teeth but also function like.</p>'
+            ], 
+            'teethExtraction' => [
+                'modalHeader' => 'WHY ARE TEETH REMOVED?',
+                'image' => '../assets/images/teeth-extraction.jpg',
+                'modalBody' => '<article class="article-body css-d2znx6 undefined"><div class="css-1u22pos"><span style="font-size:0;line-height:0"></span><p class="h4"> Why are teeth removed?</p><p>While many teens and some adults get their wisdom teeth removed, there are other reasons why tooth extraction may be necessary in adulthood. </p><p>Excessive tooth decay, tooth infection, and crowding can all require a tooth extraction. Those who get braces may need one or two teeth removed to provide room for their other teeth as they shift into place. Additionally, those who are undergoing chemotherapy or are about to have an organ transplant may need compromised teeth removed in order to keep their mouth healthy. </p><p>Tooth extraction is performed by a dentist or oral surgeon and is a relatively quick outpatient procedure with either local, general, intravenous anesthesia, or a combination. Removing visible teeth is a simple extraction. Teeth that are broken, below the surface, or impacted require a more involved procedure.</p><div class="css-umsscj"><aside class="css-0"><div><div data-empty="true" class="css-10gx9pb"><div class="css-1hjaa0k"></div><div id="inline0__slot" data-ad="true" class="css-12zon3z" data-adbridg-ad-class-invalid="false(inline0)"></div></div></div></aside></div></div><div class="css-0"><span style="font-size:0;line-height:0"></span><h4><div><a class="chartbeat-section" name="cost"> How much does a tooth extraction cost?</a></div></h4><p>The cost for tooth extraction varies widely depending on whether the tooth is impacted. Simple extraction usually costs between $75 and $200 per tooth, and may be more depending on the type of anesthesia you need. </p><p>The cost to remove impacted teeth is significantly higher and can land anywhere between $800 and $4,000. Where you live can also impact how much you pay for the procedure, as many services are tailored to an area’s cost of living.</p><div class="css-1cg0byz"><span style="font-size: 0px; line-height: 0;"></span><aside class="css-0"><div><div data-empty="true" class="css-az6x7v"><div class="css-1hjaa0k"><span class="css-7mq29v bt-uid-tg" data-uid="5ac2690fe0-160"></span></div><div id="inline1__slot" data-ad="true" class="css-eykv1o" data-adbridg-ad-class-ctr="1" data-adbridg-ad-class-loaded="inline2" data-adbridg-phase="detected@1963.79ms;gpt_define@2148.54ms;gpt_render:138207506610@4592.3ms;gpt_view@104486.46ms" data-google-query-id="CPa57Jme7_ACFcQycgodiSoOZg"><div id="google_ads_iframe_/4788/hl/pagenumber1/DLB2_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/4788/hl/pagenumber1/DLB2_0" title="3rd party ad content" name="google_ads_iframe_/4788/hl/pagenumber1/DLB2_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" allow="conversion-measurement" data-google-container-id="3" style="border: 0px; vertical-align: bottom; width: 728px; height: 90px;" data-integralas-id-410a9e99-4f5f-a6a1-1431-033020f78acf="" data-load-complete="true"></iframe></div></div></div></div></aside><span style="font-size: 0px; line-height: 0;"></span></div></div><div class="css-0"><span style="font-size:0;line-height:0"></span><h4><div><a class="chartbeat-section" name="preparation"> How to prepare for a tooth extraction</a></div></h4><p>Before scheduling the procedure, your dentist will take an X-ray of your tooth. Be sure to tell your dentist about any medications you take, as well as vitamins, supplements, and over-the-counter drugs. </p><p>Tell your dentist if you will soon be treated for another medical condition with an intravenous drug called a bisphosphonate. If so, the extraction should be done before the drug treatment, or your jaw could be at risk for osteonecrosis (bone death). </p><p>Also, tell your dentist about any of the following conditions:</p><ul><li>a congenital heart defect</li><li>diabetes</li><li>liver disease</li><li>thyroid disease</li><li>renal disease</li><li>hypertension</li><li>an artificial joint</li><li>damaged heart valves</li><li>adrenal disease</li><li>an impaired immune system</li><li>a history of bacterial endocarditis</li></ul><p>Your dentist may want to make sure all conditions are stable or treated before you undergo the tooth extraction. You might be prescribed antibiotics in the days leading up to the procedure if: </p><ul><li>your surgery is expected to be long</li><li>you have an infection or a weakened immune system</li><li>you have a specific medical condition</li></ul><p>It’s helpful to keep the following in mind for the day of the tooth extraction in order to ensure quality treatment:</p><ul><li>If you will be receiving intravenous (IV) anesthesia, wear a short-sleeved shirt or loose-fitted clothing, and don’t eat or drink for six to eight hours before your appointment.</li><li>Don’t smoke beforehand.</li><li>Tell your dentist if you have a cold, as you may need to reschedule. </li><li>Tell your dentist if you had nausea or vomiting the night before, which may require different anesthesia or rescheduling.</li><li>If you’re receiving general anesthesia, have someone with you to drive you home.</li></ul><div id="hl-incontent-video-ad" class="css-1sxbpyw" data-adbridg-ad-class-invalid="false(hl-incontent)" style=""></div><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/postscribe/2.0.6/postscribe.min.js"></script><div id="player-wrapper-10768914997373760" style="max-height: 0px; transition: max-height 500ms ease-out 0s; width: 100%; overflow: hidden; margin-top: -30px; margin-bottom: 0px; position: relative; clear: both; display: none;" class="apex-desktop jw-ad-visible"><div style="text-align:center;"></div><script src="//go.aniview.com/api/adserver61/vast/?AV_PUBLISHERID=5c62d8ee073ef46ac74785ca&amp;AV_CHANNELID=5c63e88028a061214a0151b1&amp;logo=false&amp;vpaid=js&amp;skip=true&amp;skiptimer=5" async="true"></script></div><div id="div-gpt-ad-out-of-page" class="css-1h5aco8" data-adbridg-phase="detected@1963.16ms;gpt_define@2147ms;gpt_render:114248354195@4528.04ms" style="" data-google-query-id="CPS57Jme7_ACFcQycgodiSoOZg"><div id="google_ads_iframe_/4788/hl/pagenumber1/out-of-page_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/4788/hl/pagenumber1/out-of-page_0" title="3rd party ad content" name="google_ads_iframe_/4788/hl/pagenumber1/out-of-page_0" width="1" height="1" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" allow="conversion-measurement" data-google-container-id="1" data-load-complete="true" style="border: 0px; vertical-align: bottom;"></iframe></div></div><div class="css-umsscj"><aside class="css-0"><div><div data-empty="true" class="css-10gx9pb"><div class="css-1hjaa0k"></div><div id="inline2__slot" data-ad="true" class="css-12zon3z" data-adbridg-ad-class-invalid="false(inline2)"></div></div></div></aside></div></div><div id="middle-of-article"></div><div class="css-0"><span style="font-size:0;line-height:0"></span><h4><div><a class="chartbeat-section" name="procedure"> What is the procedure for a tooth extraction?</a></div></h4><p>Your tooth extraction will either be simple or surgical, depending on whether your tooth is visible or impacted.</p><h3>Simple extraction</h3><p>You will receive a local anesthetic, which numbs the area around your tooth so you’ll feel only pressure, not pain, during the procedure. The dentist then uses an instrument called an elevator to loosen the tooth and forceps to remove it.</p><h3>Surgical extraction</h3><p>You will likely receive both local anesthesia and intravenous anesthesia, the latter of which makes you calm and relaxed. You may also receive general anesthesia, depending on any medical conditions. With general anesthesia, you will remain unconscious during the procedure. </p><p>The general dentist or oral surgeon will cut into your gum with a small incision. They may need to remove bone around your tooth or cut your tooth before it can be extracted. </p><div class="css-1cg0byz"><span style="font-size: 0px; line-height: 0;"></span><aside class="css-0"><div><div data-empty="true" class="css-az6x7v"><div class="css-1hjaa0k"></div><div id="inline3__slot" data-ad="true" class="css-eykv1o" data-adbridg-ad-class-ctr="1" data-adbridg-ad-class-loaded="inline3" data-adbridg-phase="detected@1964ms;gpt_define@2148.7ms;gpt_render:138207513205@4592.33ms" data-google-query-id="CPe57Jme7_ACFcQycgodiSoOZg"><div id="google_ads_iframe_/4788/hl/pagenumber1/DLB3_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/4788/hl/pagenumber1/DLB3_0" title="3rd party ad content" name="google_ads_iframe_/4788/hl/pagenumber1/DLB3_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" allow="conversion-measurement" data-google-container-id="4" style="border: 0px; vertical-align: bottom; width: 728px; height: 90px;" data-integralas-id-44d8eb91-d112-6a79-eda0-8822b1bf462e="" data-load-complete="true"></iframe></div></div></div></div></aside><span style="font-size: 0px; line-height: 0;"></span></div></div><div id="threequarter-of-article"></div><div class="css-0"><span style="font-size:0;line-height:0"></span><h4><div><a class="chartbeat-section" name="risks"> What are the risks of a tooth extraction?</a></div></h4><p>There are a few risks for undergoing a tooth extraction; however, if your dentist recommends the procedure, the benefits likely outweigh the small chance of complications. </p><p>Usually after a tooth extraction, a blood clot naturally forms in the socket — the hole in the bone where the tooth has been extracted. However, if the blood clot does not form or dislodges, the bone inside the socket can be exposed — referred to as “dry socket.” If this happens, the dentist will protect the area by putting a sedative dressing over it for a few days. During this time, a new clot will form. </p><p>Other risks include: </p><ul><li>bleeding that lasts longer than 12 hours</li><li>severe fever and chills, signaling an infection</li><li>nausea or vomiting</li><li>cough</li><li>chest pain and shortness of breath </li><li>swelling and redness at the surgical site</li></ul><p>Contact your dentist if you experience any of these symptoms. </p><div class="css-umsscj"><aside class="css-0"><div><div data-empty="true" class="css-10gx9pb"><div class="css-1hjaa0k"></div><div id="inline4__slot" data-ad="true" class="css-12zon3z" data-adbridg-ad-class-invalid="false(inline4)"></div></div></div></aside></div></div><div class="css-0"><span style="font-size:0;line-height:0"></span><h4><div><a class="chartbeat-section" name="recovery"> What is the recovery period from a tooth extraction?</a></div></h4><p>It normally takes a few days to recover after a tooth extraction. The following steps help ensure that your recovery goes smoothly. </p><ul><li>Apply an ice pack to your cheek directly after the procedure to reduce swelling. Use the ice pack for 10 minutes each time.</li><li>After the dentist places the gauze pad over the affected area, bite down to reduce bleeding and to aid in clot formation. Leave the gauze on for three to four hours, or until the pad is soaked with blood.</li><li>Take any medications as prescribed, including over-the-counter painkillers. </li><li>Rest and relax for the first 24 hours. Do not jump immediately into your regular routine the following day.</li><li>Don’t use a straw for the first 24 hours. </li><li>Don’t smoke.</li><li>Don’t rinse for 24 hours after the tooth extraction, and spit only gently. </li><li>Use pillows to prop your head up when you lie down.</li><li>Brush and floss your teeth like normal, but avoid the extraction site.</li><li>The day after the procedure, eat soft foods, such as yogurt, pudding, and applesauce. </li><li>After 24 hours, add a half-teaspoon of salt to eight ounces of warm water to rinse out your mouth.</li><li>As you heal over the next few days, you can slowly reintroduce other foods into your diet.</li></ul><p>If you are experiencing pain that isn’t going away after several days or signs of an infection —including fever, pain, and pus or drainage from the incision — make an appointment to see your dentist as soon as possible.</p></div><div id="bottom-of-article"></div></article>'
+            ],
+            'ceramicCrowns' => [
+                'modalHeader' => 'WHAT ARE DENTAL CROWNS?',
+                'image' => '../assets/images/ceramic-crowns.jpg',
+                'modalBody' => '<div class="container mt-5 mb-5 d-flex justify-content-center">
+                <div class="inner-contentbox">
+                    <h4><strong>When is Dental Crown needed?</strong></h4>
+                    <p>Dental crowns are used as caps on missing or fractured tooth to protect the life of your teeth. Dental Crowns are needed to:</p>
+                    <ul>
+                        <li>Protect or restore a tooth from fracturing due to accident or trauma</li>
+                        <li>Replace a tooth which is too large for a filling</li>
+                        <li>Get a cap over Implant placed</li>
+                        <li>Restore the tooth on which RCT was performed</li>
+                        <li>Cover discolored, misshaped or badly formed tooth</li>
+                        <li>Require a bridge in that case crowns are a must</li>
+                    </ul>
+                    <p>In addition, Dental Crown gives your tooth the strength, shape, size and help to improve the appearance of your tooth. If your dentist has advised, you to get a crown and you are delaying the process then there are chances that you can damage your tooth to the extent that extraction is the last resort.</p>
+                    <p>Moreover, not getting a dental crown can wear down other adjacent teeth causing damage.</p>
+                    <h4><strong>What are various types of Dental Crowns?</strong></h4>
+                    <p>Dental Crowns can be made in variety come in various materials such as:</p>
+                    <h6>Metal Crowns</h6>
+                    <p>If someone is looking for long term and the durable solution then metal crowns are to the rescue. The gold crowns in these are the most used and bonds well with the tooth. These can even withstand hard chewing forces and biting. Being stronger they last longer and do not wear down easily. The only drawback is that they are visible from a distance hence, suitable only for molars.</p>
+                    <h6>Porcelain-fused-to-metal</h6>
+                    <p>If you have aesthetic concerns and also wish to have metal crowns inserted then these are the best option available. The inside of the teeth is made up of metal and the outer portion of the crown is made of porcelain, as a result, it has the dual advantage – metal which provides strength and porcelain which matches with the color of the teeth making it look like natural teeth. They look the most like natural teeth.</p>
+                    <h6>Ceramic Crown</h6>
+                    <p>If you do not want to have metal inserted inside your mouth but want the strength to match metal crowns then ceramic crowns are the best option available. Not only is the strong but blends more naturally with your tooth color making it unnoticed. It does not have any aesthetic concerns and is the best option for the front, back and even for the bridges. The problem of porcelain wearing down and metal being visible is solved by this Dental Crown. They may not be considered as an option for molars because forces applied while biting can wear down your teeth.</p>
     
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <h6 class="ex_mr"><strong>DO’S AND DON’TS WITH DENTAL CROWNS</strong></h4>
+                    <h6>DO’S</h6>
+                    <ul class="no_space">
+                    <li>Since the natural teeth are still beneath the crown and are vulnerable to decay, therefore, it is important to maintain good oral hygiene therefore brushing, rinsing and flossing should be followed regularly.</li>
+                    <li>If you clench your teeth, then it is advised to use mouthguard to protect your crown and this also does not allow your teeth to wear down.</li>
+                    <li>Get crowns only by a dental expert who is trained in placing dental implants. Poor placement of crowns can reduce the longevity of crowns.</li>
+                    <li>Do visit your dentist every 6 months to ensure that your oral health is in the best care.</li>
+                    </ul>
+                    <h6>DON’TS</h6>
+                    <ul>
+                    <li>Do not use your teeth as tools as this will put pressure and will damage the crown</li>
+                    <li>Do not bite your nails and chew pencils</li>
+                    <li>Do not chew ice or candy which is hard</li>
+                    <li>Do not eat sticky food</li>
+                    <li>Do not consume too hot or too cold food as this might cause sensitivity</li>
+                    </ul>
+                    <h4 class="ex_mr"><strong>MYTHS ABOUT DENTAL CROWNS</strong></h4>
+                    <p>Dental Crowns carry a lot of myths with them a few of them are:</p>
+                    <h6>Dental Crowns do not look natural</h6>
+                    <p>There is a misconception that dental crowns do not match with your teeth hence give the impression of an artificial tooth. However, with changes in technology crowns come in various material which looks exactly like your natural teeth. And even metal crowns are a good and viable option because they are used as molars and are never seen.</p>
+                    <h6>Crowns last forever</h6>
+                    <p>Though the crowns are now stronger and have longevity, yet they cannot last a lifetime. It also depends as to how well they are taken care of. To ensure they last longer visit your dentist after every 6 months, your dentist will monitor your crown and will replace it timely.</p>
+                    <h6>Food and Beverage stains the crown</h6>
+                    <p>The biggest myth that people carry. They believe that food and beverages can stain their teeth with time but in reality, the crowns are made of porcelain and ceramic which do not stain easily.</p>
+                    <h6>Only used for restorative dentistry</h6>
+                    <p>People believe that one gets crown only if they have fractured tooth, have undergone <a href="https://clovedental.in/specialties/root-canal-treatment/">root canal treatment</a> or have broken or chipped a tooth. But the truth is they are used in <a href="https://clovedental.in/specialties/smile-makeover/">cosmetic dentistry</a> as a way to enhance the appearance and to have a whiter and beautiful smile.</p>
+                    <h6>Dental Crowns do not break or chip</h6>
+                    <p>Though ceramic and porcelain are harder substances yet if you bite on something extremely hard, or face accident or trauma then your crown may break.</p>
+                    <h6>You cannot get cavity with crowns</h6>
+                    <p>Because crown covers your tooth, therefore, they become vulnerable to decay. Though crowns, as they are artificial, have no chances of decay yet the part below them can decay. It is, therefore, required to keep your teeth and the area around clean to prevent a cavity.</p>
+                    <h4><strong>FREQUENTLY ASKED QUESTIONS</strong></h4>
+                    <h6>Q.1.&nbsp;<strong><b>What Is The Cost Of Dental Crowns?</b></strong></h6>
+                    <p><strong><b>Dental Crowns</b></strong>&nbsp;may be more expensive than fillings, but they have the advantage of actually lasting longer as well. At Clove Dental, we ensure that our patients always get the best quality and value for their money. Visit your nearest Clove Dental Clinic for more information.</p>
+                    <h6>Q.2.&nbsp;<strong><b>How Long Does A Dental Crown Last?</b></strong></h6>
+                    <p>Depending on several factors that include the case specifics, material, and compliance to oral hygiene routines, <strong><b>dental crowns</b></strong>&nbsp;may last anywhere between 5 to 15 years. We advise our patients to maintain their oral hygiene after implantation of dental crown.</p>
+                    <h6>Q.3.&nbsp;<strong><b>Do Dental Crowns Hurt?</b></strong></h6>
+                    <p>Before the procedure, dentists administer a local anaesthetic. Therefore getting <strong><b>dental crowns</b></strong>&nbsp;may not hurt. However, once the anaesthetic wears off, feeling soreness and sensitivity in the gums is usual, and it usually goes away in a few days.</p>
+                    <h6>Q.4.&nbsp;<strong><b>Do One Needs a Dental Crown After RCT?</b></strong></h6>
+                    <p>Root Canal Treatment means that the pulp inside the tooth will be cleared out. Therefore to provide strength after filling up the cavity, crowns are usually used. Adding a crown to the tooth after RCT is a must.</p>
+                </div>
+            </div>'
+            ], 
+        ];
+        
+    }
 }
 
 

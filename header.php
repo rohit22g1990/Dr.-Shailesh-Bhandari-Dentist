@@ -15,6 +15,8 @@ Author URL: http://w3layouts.com
 	</title>
 	<!-- Template CSS -->
 	<link rel="stylesheet" href="assets/css/style-starter.css">
+	<link rel="stylesheet" href="assets/css/xdsof-datepicker.min.css">
+	
 	<!-- Template CSS -->
 	<link href="//fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&display=swap" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -71,7 +73,7 @@ Author URL: http://w3layouts.com
 			<div class="container">
 				<a class="navbar-brand" href="index.php"><span>Dr.</span>
 					Shailesh Bhandari
-					<br /><p class="highlight">Advance dental n orthodontic centre</p>
+					<br /><p class="highlight">Advance dental n orthodontic center</p>
 				</a>
 				
 				<!-- if logo is image enable this   

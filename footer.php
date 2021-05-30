@@ -180,7 +180,7 @@
 <!--/scroll-down-JS-->
 <!-- stats -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
-<script src="assets/js/jquery.waypoints.min.js"></script>
+// <script src="assets/js/jquery.waypoints.min.js"></script>
 <script src="assets/js/jquery.countup.js"></script>
 <script>
 	$('.counter').countUp();
@@ -293,6 +293,6 @@
 <!-- //script for Testimonials-->
 <!-- //script -->
 
+<script src="assets/js/jquery.datetimepicker.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/custom/service.js"></script>
-

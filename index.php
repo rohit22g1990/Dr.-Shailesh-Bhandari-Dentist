@@ -536,9 +536,20 @@
 			</div>
 		</div>
 	</section>
+	<script>
+		$(document).ready(function(){
+			$('.book-appointment-button').click(function(){
+				$('.appointment-1').show();
+				$('.appointment-2').hide();
+				$('.appointment-3').hide();
+			});
+		});
+	</script>
 	<!--//testimonials-->
 	<?php include 'footer.php'; ?>
-	<?php include 'modals/bookAppointment.php'; ?>
+	<?php include 'modals/appointment/bookAppointment.php'; ?>
 	<?php //include 'modals/services/teeth-whitening.php';?>
 	<?php //include 'modals/servicesMoreInfo.php';?>
 	<?php include 'modals/servicesModal.php'; ?>
+
+	

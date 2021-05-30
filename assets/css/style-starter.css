@@ -17636,6 +17636,28 @@ button span.fa-angle-up {
   border-radius: 100%;  
 }
 
+.appointment-services {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.appointment-services a {
+  /* color: white; */
+  font-size: 0.9em;
+}
+.selected-service {
+  background-color: #d63447;
+}
+.selected-service a {
+  color: white;
+}
+.xdsoft_datetimepicker.xdsoft_inline{
+  width: 100% !important;
+}
+.xdsoft_datetimepicker .xdsoft_datepicker {
+  width: 79% !important;
+}
+
 /*-- /move top --*/
 /*# sourceMappingURL=style-freedom.css
 /*--//footer--*/
